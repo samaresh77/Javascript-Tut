@@ -1,0 +1,31 @@
+Dom event:
+Dom events are are axtions that occur as a result of the user action or as
+result of state change of the elements of a Dom tree.
+
+ex. of  HTML events:
+a.When a user clicks the mouse
+b.When a web page has loaded
+c.When an image has loaded
+d.When the mouse moves over an element
+e.When an input field is changed
+f.When an HTML form is submitted
+g.When a user strokes a key
+
+Page load Event:
+a.DomContentLoaded - the browser fully loaded HTML and comleted building the Dom tree.
+  However,it hasn't loaded external resources like stylesheets and images.
+  In this event, you can start selecting Dom nodes or initialize the interface.
+b.load - the browser fully loaded the HTML and also external resources like images and stylesheets.
+  When you leave the page, the following events fore in sequence:
+  
+//Bom(Browser Object Model)
+The BOM is used to interact with the browser.
+
+The window Object represents a window in browser.
+An Object of window is created automatically by the browser.
+
+All global javascript Object,function, and variables with the var
+keyword automatically become members of the window object.
+
+Global variables are properties of the window object.
+Global functions are methods of the window object.

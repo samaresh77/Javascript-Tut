@@ -1,0 +1,14 @@
+1. Event bubbling
+
+In the event bubbling model, an event starts at the most specific element and then
+flows upward toward the least specific element (the document or even window).
+
+When you click the button, the click event occurs in the following order:
+I
+
+* button
+* div with the id container 
+* body
+* html
+* document 
+

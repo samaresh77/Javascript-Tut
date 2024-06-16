@@ -1,0 +1,13 @@
+2. Event capturing
+
+In the event capturing model, an event starts at the least specific element and
+flows downward toward the most specific element.
+
+When you click the button, the click event occurs in the following order:
+
+I
+* document 
+* html 
+* body
+* div with the id container
+* button 

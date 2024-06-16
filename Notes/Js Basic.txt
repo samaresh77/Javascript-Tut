@@ -1,0 +1,38 @@
+JavaScript:
+JavaScript (js) is a light-weight object-oriented programming language which is used by several websites for scripting the webpages. It is an interpreted, full-fledged programming language that enables dynamic interactivity on websites when applied to an HTML document.
+JavaScript can be used for Client-side developments as well as Server-side developments.
+
+History:
+It was introduced in the year 1995 for adding programs to the webpages in the Netscape Navigator browser.
+
+JavaScript is used to create interactive websites. It is mainly used for:
+Client-side validation,
+Dynamic drop-down menus,
+Displaying date and time,
+Displaying pop-up windows and dialog boxes (like an alert dialog box, confirm dialog box and prompt dialog box),
+Displaying clocks etc.
+
+JavaScript can be added to HTML file in two ways:
+a.Internal JS:
+<script>
+    // JavaScript Code
+</script>
+b.External JS:
+<script src="index.js"></script>
+
+Javascript Comment:
+a.SIngle line-->//
+b.Multi line-->/**Hello**/
+
+Javascript Variables:
+Variable are nothing but a cotainer to store the data.
+In Js there are 3 variable 
+a.var
+b.let
+c.const
+
+alert,prompt,confirm
+a.alert()->show a message
+b.prompt()->show a message, input text.It returns the text on ok or ,if Cancel button or Esc is clicked,null.
+c.confirm()->show a message, confirms with 'Ok'or 'Cancel'.It return true for 'Ok' and false for 'Cancel';
+
